@@ -1,0 +1,32 @@
+# Keil MDK-ARM 编译输出及中间文件
+*.hex
+*.elf
+*.axf
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.lst
+*.map
+Objects/
+Listings/
+build/
+Debug/
+Release/
+
+# Keil 用户个性化配置（窗口布局、断点、调试器设置等，因人而异）
+*.uvgui*
+*.uvoptx
+*.uvopt
+
+# 其他杂项（如果你的项目混杂了 STM32CubeIDE 可以保留下面部分）
+# STM32CubeIDE
+*/Debug/
+*/Release/
+.metadata/
+
+# 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+.vscode/
